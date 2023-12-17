@@ -20,6 +20,12 @@ import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
+import python from './tech/python.png';
+import java from './tech/java.png';
+import rust from './tech/rust.png';
+import kotlin from './tech/kotlin.png';
+import cpp from './tech/cpp.png';
+import swift from './tech/swift.png';
 
 import meta from './company/meta.png';
 import shopify from './company/shopify.png';
@@ -27,6 +33,7 @@ import starbucks from './company/starbucks.png';
 import tesla from './company/tesla.png';
 import intuit from './company/intuit.png';
 import ucdavis from './company/ucdavis.png';
+import rion from './company/rion.png';
 
 import carrent from './carrent.png';
 import jobit from './jobit.png';
@@ -63,4 +70,11 @@ export {
   tripguide,
   intuit,
   ucdavis,
+  python,
+  java,
+  rust,
+  kotlin,
+  cpp,
+  swift,
+  rion,
 };
