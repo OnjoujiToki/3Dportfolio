@@ -38,7 +38,7 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
       <motion.p
@@ -53,6 +53,17 @@ const About = () => {
         as React and SpringBoot. Passionate about technology, I aspire to
         leverage my technical expertise and experiences to excel in the software
         engineering domain.
+        <br></br> <br></br>In my recent foray into competitive programming, I've
+        quickly made significant strides, achieving top 3% in LeetCode Contests
+        in less than 20 attempts and ranking in the top 5% on AtCoder with a
+        rating of 1216. This showcases my rapid learning and adaptability in
+        tackling complex coding challenges. <br></br> <br></br> I create and
+        share educational content, focusing on programming languages, data
+        structures, and algorithms. My tutorials and insights have attracted
+        over 800 subscribers, showcasing my ability to effectively communicate
+        complex technical concepts. As a hobby, I also produce eSports-related
+        videos, which have garnered a following of 6,800 subscribers, reflecting
+        my diverse interests and skills in content creation.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

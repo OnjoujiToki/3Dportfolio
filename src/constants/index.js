@@ -32,6 +32,7 @@ import {
   cpp,
   swift,
   rion,
+  muxin,
 } from '../assets';
 
 export const navLinks = [
@@ -137,6 +138,7 @@ const technologies = [
 ];
 
 const experiences = [
+  /*
   {
     title: 'Student Coordinator',
     company_name: 'University of California, Daivs',
@@ -148,7 +150,7 @@ const experiences = [
       'Actively participated in the eSports and programming teams, contributing to UC Davis achieving a top ranking in CSL Starleague.',
       'Successfully expanded the size of the organization from approximately 10 to 50 members, demonstrating effective leadership and organizational growth skills.',
     ],
-  },
+  },*/
   {
     title: 'Software Engineer',
     company_name: 'Rion',
@@ -217,93 +219,97 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
+      'Zhihao was at the very top of my data science class and earned a Teaching Assistanship in the ensuing semester. As a TA, she has shown perseverance and curiosity, volunteering to code solutions to tough homework problems',
+    name: 'Dr.Konstantopoulos',
+    designation: 'Teaching Professor',
+    company: 'Northeastern University',
+    image:
+      'https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_280,h_373/https://coe.northeastern.edu/wp-content/uploads/profiles/coe/konstantopoulos-d.jpg',
+  },
+
+  {
+    testimonial:
+      'I can attest to their communication skills, cultural agility, and commitment as a student. That Zhihao would electively enroll in this non-credit bearing course is also a testament to their growth mindset.',
+    name: 'Dr.McMartin-Miller',
+    designation: 'Teaching Professor',
+    company: 'Northeastern University',
+    image:
+      'https://international.northeastern.edu/global-pathways/wp-content/uploads/sites/4/2019/11/Crissy-Mcmartin-Miller.jpg',
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
+      'I wholeheartedly recommend Zhihao Zhang for any upcoming opportunities. I am confident that they will excel and make noteworthy contributions in any academic or professional setting. ',
+    name: 'Muxing Lin',
+    designation: 'Software Development Engineer',
+    company: 'Amazon.Inc',
+    image: muxin,
   },
 ];
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'DailyCode',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'DailyCode, your all-in-one iOS companion for competitive programming enthusiasts. Our app offers a comprehensive library of essential programming concepts, tricks, and algorithms, organized for on-the-go learning. With features like contest reminders, code execution within the app, and seamless integration of the Codeforces API, DailyCode is your gateway to improving coding skills and staying ahead in the world of competitive programming.',
     tags: [
       {
-        name: 'react',
+        name: 'Swift',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'SwiftUI',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'firebase',
         color: 'pink-text-gradient',
       },
     ],
     image: carrent,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/OnjoujiToki/cp-librabry',
   },
   {
-    name: 'Job IT',
+    name: 'Problem-Solving Helper',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'This application provides a comprehensive platform for users to engage with training plans, track progress, and interact with a variety of educational content, including user authentication, personalized training plans, and an intuitive interface for problem-solving and skill development. Aimed at enhancing the learning experience, the application combines functionality with user-centric design, making it an ideal tool for problem-solving enthusiasts.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'scss',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'firebase',
         color: 'pink-text-gradient',
       },
     ],
     image: jobit,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/OnjoujiToki/cf-training',
   },
   {
-    name: 'Trip Guide',
+    name: 'Implementation Library',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'Algorithms & Data Structures library ambitiously implements a wide array of modern algorithms and data structures, going beyond common ones like Union Find and Dijkstra to include advanced types like Binary Trie and Wavelet Tree, typically found in research papers. It is a comprehensive resource for students, teachers, and professionals, bridging the gap between standard programming tools and cutting-edge computational methods.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'C++',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'Git',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'Python',
         color: 'pink-text-gradient',
       },
     ],
     image: tripguide,
-    source_code_link: 'https://github.com/',
+    source_code_link:
+      'https://github.com/OnjoujiToki/cp-training/blob/master/graph/shortest_path/dijkstra_priority_queue.hpp',
   },
 ];
 

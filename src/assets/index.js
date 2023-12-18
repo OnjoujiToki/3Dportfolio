@@ -38,7 +38,7 @@ import rion from './company/rion.png';
 import carrent from './carrent.png';
 import jobit from './jobit.png';
 import tripguide from './tripguide.png';
-
+import muxin from './muxin.png';
 export {
   logo,
   backend,
@@ -77,4 +77,5 @@ export {
   cpp,
   swift,
   rion,
+  muxin,
 };
